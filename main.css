@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+}
+
+/* start of nav div*/
+nav {
+  background-color: #130d6df2;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+}
+
+.img {
+  padding: 10px;
+}
+
+img {
+  width: 87px;
+  border-radius: 20px;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/* end of nav div*/
+/*start of slider div*/
+.slideshow-container {
+  width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #3c596f;
+  font-size: 24px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.content {
+  width: 100%;
+  height: 50%;
+}
+
+.main_content {
+  color: #3c596f;
+  font-size: 24px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+h2 {
+  margin: 10px;
+}
+
+p {
+  line-height: 46px;
+}
+
+/*end of slider div*/
+.team-member {
+  border-style: solid;
+  border-color: #D3D3D3;
+  border-width: 2px;
+  border-radius: 2px;
+  margin-left: 45px;
+  margin-right: 45px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.team-member:hover {
+  box-shadow: 3px 3px 5px 5px #c9dae8;
+}
+
+.teamimg {
+  border-radius: 30px;
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  border: 2px solid #aab7b7;
+}
+
+h3, h2, p {
+  text-align: center;
+}
+
+h3 {
+  color: #4682B4;
+}
+
+h2 {
+  font-style: italic;
+}
+
+#itemtable {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+
+#itemtable tr>td {
+  padding-top: 50px;
+  /* padding-top:20px; */
+  width: 30%;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#contact .conts {
+  width: 33.33%;
+  float: left;
+  padding: 8px;
+}
+
+#contact {
+  background-color: rgb(105, 105, 105);
+  height: 350px;
+}
+
+#contact ul {
+  list-style-type: none;
+}
+
+#contact ul li {
+  padding: 2px 0 8px 0;
+  font-size: 16px;
+}
+
+#contact ul li i {
+  margin: 0 8px 0 0;
+}
+
+#contact ul li a {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+.row .left-col {
+  float: left;
+  width: 25%;
+}
+
+.row .right-col {
+  width: 75%;
+  float: left;
+}
+
+label {
+  padding: 0px 5px 10px 0;
+  display: inline-block;
+}
+
+.form {
+  margin: 15px 0;
+}
+
+/*                           ======================    */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'sans-serif';
+}
+
+a {
+  text-decoration: none;
+}
+
+.clr {
+  clear: both;
+}
+
+.main {
+  width: 100%;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px 10px;
+}
+
+.main h3 {
+  margin-bottom: 30px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type="text"], input[type="email"], textarea {
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"] {
+  padding: 5px 80px 5px 5px;
+}
